@@ -1,10 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 
-class Navitem extends Component {
-  
-
-  
+class NavItem extends Component {
 
   render() {
     return (
@@ -14,4 +11,4 @@ class Navitem extends Component {
     );
   }
 }
-export default Navitem;
+export default NavItem;
