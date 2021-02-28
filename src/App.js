@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import About from "./contents/About";
 import Education from "./contents/Education";
 import Home from "./contents/Home";
+import Skills from "./contents/Skills";
 
 function App() {
   return (
@@ -21,7 +22,11 @@ function App() {
         </Route>
         {/* Route for Education.js contents */}
         <Route path="/education">
-          <About />
+          <Education />
+        </Route>
+        {/* Route for Skills.js contents */}
+        <Route path="/skills">
+          <Skills />
         </Route>
       </div>
     </Router>
