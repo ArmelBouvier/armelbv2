@@ -12,11 +12,12 @@ class Home extends Component {
           alt="Armel Bouvier portrait"
           className="profilepic"
         ></img>
+        <br/>
         <ReactTypingEffect
           className="typingeffect"
-          text={["I am Armel Bouvier", "I am a web developer"]}
-          speed={100}
-          eraseDelay={700}
+          text={["Je suis Armel Bouvier", "Je suis un développeur web", "Fullstack Symfony/React"]}
+          speed={50}
+          eraseDelay={500}
         />
         <Social />
       </div>

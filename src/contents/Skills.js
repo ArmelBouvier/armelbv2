@@ -4,13 +4,13 @@ class Skills extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      myskills: ["HTML", "CSS", "JS", "PHP", "REACT JS", "FIREBASE", "MIT APP"],
+      myskills: ["HTML", "CSS", "JS", "PHP", "SQL", "REACT JS", "SYMFONY", "MYSQL",  "SQLITE", "GIT", "GITHUB", "GITLAB", "TRELLO"],
     };
   }
   render() {
     return (
       <div className="condiv skills">
-        <h1 className="subtopic">My Skills</h1>
+        <h1 className="subtopic">Mes compétences</h1>
         <ul>
           {this.state.myskills.map((value) => {
             return <li>{value}</li>;

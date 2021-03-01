@@ -4,22 +4,31 @@ class About extends Component {
   render() {
     return (
       <div className="condiv">
-        <h1 className="subtopic">About Me</h1>
-        <h4>Hey there,</h4>
-        <h1>I'm Abdul Wahid Naafi</h1>
-        <h3>
-          Full Stack Web <u>Developer</u> | UI/UX <u>Designer</u>
-        </h3>
+        <h1 className="subtopic">A propos de moi</h1>
+        <h4>Bonjour,</h4>
+        <h1>Je suis Armel Bouvier</h1>
+        <h3>Développeur web php full stack php React/Symfony</h3>
         <br></br>
         <p>
-          I started my journey in the world of computers from an young age,now
-          I’m 20 years old, Pursuing my Software Engineering Degree inVIT
-          University Vellore. Web development is my center of interest, i
-          alwayslove the idea of cross-platform development, 1-n one code base
-          deploy into almostany platform, which web technology like Javascript
-          enables me to do. I also likecreating Interactive UI components for
-          better UX and share those desgin and codesto the world through Github,
-          Codepen and Instagram.
+          Je me suis lancé dans le développement web à l'occasion d'une
+          reconversion professionnelle entamée en décembre 2019. <br />
+          Je cherche une entreprise qui n'a pas peur d'embaucher un "vieux"
+          junior, pour continuer à apprendre dans ce milieu qui me passionne !
+        </p>
+        <p>
+          De par ma formation et mes expériences professionnelles, j'ai appris à
+          gérer avec rigueur des projets menés aussi bien en équipe qu'en
+          autonomie.
+        </p>
+        <p>
+          J'ai souvent eu à endosser un rôle d'interface entre des champs
+          disciplinaires variés, ce qui est devenu une passion autant qu'une
+          source de motivation.
+        </p>
+        <p>
+          Cela m'a incité à faire preuve de réactivité pour comprendre et
+          traduire le mieux possible les impératifs de mes interlocuteurs comme
+          de mes collègues.
         </p>
       </div>
     );
